@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="375dp"
+    android:background="@drawable/item1"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="290dp">
+    <ImageView
+        android:layout_width="150dp"
+        android:background="@drawable/item2"
+        android:layout_below="@id/text_vip"
+        android:layout_centerHorizontal="true"
+        android:layout_height="12dp">
+    </ImageView>
+    <TextView
+        android:id="@+id/text_vip"
+        android:layout_width="105dp"
+        android:layout_height="21dp"
+        android:text="会员卡余额查询"
+        android:textColor="#ff000000"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:layout_marginTop="14.5dp"
+        />
+    <ImageView
+        android:id="@+id/iv_vip"
+        android:layout_width="237dp"
+        android:background="@mipmap/ic_card"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="64.5dp"
+        android:layout_marginRight="68dp"
+        android:layout_height="142dp">
+    </ImageView>
+
+    <TextView
+        android:layout_width="249dp"
+        android:layout_height="19dp"
+        android:text="请将您的IC卡放置在刷卡区域"
+        android:textColor="#ff000000"
+        android:textSize="16sp"
+        android:layout_below="@id/iv_vip"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="73dp"
+        />
+</RelativeLayout>
